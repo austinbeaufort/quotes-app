@@ -2,12 +2,10 @@
   "name": "sunshine-quotes",
   "version": "1.0.0",
   "description": "Positive Quotes for Everyone!",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
     "dev": "parcel index.html",
-    "build": "parcel index.html",
-    "predeploy": "rm -rf dist && parcel build index.html"
+    "build": "parcel index.html"
   },
   "author": "Austin Beaufort",
   "license": "ISC",
