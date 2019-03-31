@@ -1,4 +1,4 @@
-import Positivity from 'positivity-api';
+const Positivity = require('positivity-api');
 
 let quote1 = Positivity.random();
 let quote2 = Positivity.random();
