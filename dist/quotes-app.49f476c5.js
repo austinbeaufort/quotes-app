@@ -9,4 +9,4 @@ const r=require("unique-random-array"),e=require("./quotes.json");module.exports
 },{"unique-random-array":"jNqO","./quotes.json":"ADle"}],"Focm":[function(require,module,exports) {
 var e=require("positivity-api"),t=e.random(),o=e.random(),n=e.random(),r=document.querySelector("#quote1"),u=document.querySelector("#quote2"),q=document.querySelector("#quote3");r.textContent=t,u.textContent=o,q.textContent=n;
 },{"positivity-api":"MEjj"}]},{},["Focm"], null)
-//# sourceMappingURL=/quotes-app/quotes-app.49f476c5.map
+//# sourceMappingURL=/quotes-app.49f476c5.map
