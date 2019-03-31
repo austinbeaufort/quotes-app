@@ -1,8 +1,8 @@
-const positivity = require('positivity-api');
+import Positivity from 'positivity-api';
 
-let quote1 = positivity.random();
-let quote2 = positivity.random();
-let quote3 = positivity.random();
+let quote1 = Positivity.random();
+let quote2 = Positivity.random();
+let quote3 = Positivity.random();
 
 let placeQuote1 = document.querySelector('#quote1');
 let placeQuote2 = document.querySelector('#quote2');
@@ -12,8 +12,3 @@ placeQuote1.textContent = quote1;
 placeQuote2.textContent = quote2;
 placeQuote3.textContent = quote3;
 
-module.exports = {
-    placeQuote1,
-    placeQuote2,
-    placeQuote3
-}
