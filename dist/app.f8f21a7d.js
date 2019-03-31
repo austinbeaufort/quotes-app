@@ -7,6 +7,8 @@ module.exports=["With the new day comes new strength and new thoughts.","Always 
 },{}],"MEjj":[function(require,module,exports) {
 const r=require("unique-random-array"),e=require("./quotes.json");module.exports={all:e,random:r(e)};
 },{"unique-random-array":"jNqO","./quotes.json":"ADle"}],"Focm":[function(require,module,exports) {
-var e=require("positivity-api"),t=e.random(),o=e.random(),n=e.random(),r=document.querySelector("#quote1"),u=document.querySelector("#quote2"),q=document.querySelector("#quote3");r.textContent=t,u.textContent=o,q.textContent=n;
-},{"positivity-api":"MEjj"}]},{},["Focm"], null)
-//# sourceMappingURL=quotes-app.49f476c5.map
+var o=require("positivity-api"),e=o.random(),r=o.random(),t=o.random();module.exports={quote1:e,quote2:r,quote3:t};
+},{"positivity-api":"MEjj"}],"A2T1":[function(require,module,exports) {
+var e=require("./index.js"),t=document.querySelector("#quote1"),o=document.querySelector("#quote2"),u=document.querySelector("#quote3");t.textContent=e.quote1,o.textContent=e.quote2,u.textContent=e.quote3;
+},{"./index.js":"Focm"}]},{},["A2T1"], null)
+//# sourceMappingURL=/app.f8f21a7d.map
