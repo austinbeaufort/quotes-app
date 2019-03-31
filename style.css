@@ -1,0 +1,103 @@
+
+.container-fluid {
+    padding: 0;
+}
+
+.jumbotron {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.icon-bar {
+    margin-top: 40px;
+    justify-content: center;
+}
+
+#title-box {
+    text-align: center;
+    background-image: url('./sunshine.jpg');
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+
+#title-box h1, #title-box p {
+    background-color: rgba(245, 203, 88, 0.6);
+    margin: 0;
+}
+
+#quote-box {
+    background-color: lightblue;
+    background-image: none;
+    color: black;
+    padding-bottom: 400px;
+}
+
+#quote-box h1{
+    font-size: 30px;
+}
+
+
+/* icon-bar */
+
+
+.icon-bar {
+display: flex;
+}
+
+.icon-bar i {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.icon-bar i:hover {
+    background-color: black;
+}
+
+.icon-bar .fa-medium-m {
+    background: darkslategray;
+}
+
+.icon-bar .fa-twitter {
+    background: cornflowerblue;
+}
+
+.icon-bar .fa-linkedin {
+    background: darkcyan;
+}
+
+.icon-bar .fa-github {
+    background: purple;
+}
+
+.icon-bar .fa-youtube {
+    background: rgb(199, 0, 0);
+}
+
+.icon-bar .fa-codepen {
+    background: rgb(62, 124, 160);
+}
+
+
+@media (min-width: 500px) {
+    #quote-box h1 {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #title-box h1{
+        font-size: 7em;
+    }
+
+    #title-box p {
+        font-size: 4em;
+    }
+}
