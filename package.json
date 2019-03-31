@@ -9,7 +9,11 @@
   },
   "author": "Austin Beaufort",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "gh-pages-deploy": "^0.5.1",
+    "parcel-bundler": "^1.12.3",
+    "positivity-api": "^1.2.0"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
     "positivity-api": "^1.2.0"
