@@ -4,9 +4,9 @@
   "description": "Positive Quotes for Everyone!",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
     "dev": "parcel index.html",
-    "build": "parcel index.html",
+    "build": "parcel index.html --public-url ./",
     "predeploy": "rm -rf dist && parcel build index.html"
   },
   "author": "Austin Beaufort",
