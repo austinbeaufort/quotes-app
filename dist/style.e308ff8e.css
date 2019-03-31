@@ -16,7 +16,7 @@
 
 #title-box {
     text-align: center;
-    background-image: url('/sunshine.267e81d7.jpg');
+    background-image: url('sunshine.267e81d7.jpg');
     background-size: cover;
     color: white;
     width: 100%;
@@ -101,5 +101,3 @@ display: flex;
         font-size: 4em;
     }
 }
-
-/*# sourceMappingURL=/style.e308ff8e.css.map */
