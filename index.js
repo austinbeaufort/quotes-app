@@ -11,3 +11,9 @@ let placeQuote3 = document.querySelector('#quote3');
 placeQuote1.textContent = quote1;
 placeQuote2.textContent = quote2;
 placeQuote3.textContent = quote3;
+
+module.exports = {
+    placeQuote1,
+    placeQuote2,
+    placeQuote3
+}
