@@ -205,11 +205,18 @@ module.exports = {
 
 
 },{"unique-random-array":"node_modules/unique-random-array/index.js","./quotes.json":"node_modules/positivity-api/src/quotes.json"}],"index.js":[function(require,module,exports) {
-var positivity = require('positivity-api');
+"use strict";
 
-var quote1 = positivity.random();
-var quote2 = positivity.random();
-var quote3 = positivity.random();
+var _positivityApi = _interopRequireDefault(require("positivity-api"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var quote1 = _positivityApi.default.random();
+
+var quote2 = _positivityApi.default.random();
+
+var quote3 = _positivityApi.default.random();
+
 var placeQuote1 = document.querySelector('#quote1');
 var placeQuote2 = document.querySelector('#quote2');
 var placeQuote3 = document.querySelector('#quote3');
@@ -244,7 +251,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58093" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60012" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
